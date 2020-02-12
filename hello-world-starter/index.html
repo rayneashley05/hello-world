@@ -1,0 +1,59 @@
+<!doctype html>
+
+<!-- Hello World HTML -->
+<!-- don't forget to validate at https://validator.w3.org -->
+
+<html lang="en">
+
+    <head>
+        <!-- Where CSS and Meta Information Goes -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+        <!-- The text the user sees in browser tab -->
+        <title>My Amazing Webpage</title>
+
+        <!-- this line is to include the FontAwesome icon set -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+
+        <!-- this line is to include Bootstrap formatting -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+        <!-- This is how the web page knows about YOUR CSS file! -->
+        <link rel="stylesheet" type="text/css" href="hello-world.css"/>
+
+    </head>
+    <body>
+        <!-- This is where all the VISIBLE web page content goes -->
+
+        <!-- outermost responsive container -->
+        <div class="container-fluid">
+
+            <!-- responsive row -->
+            <div id="hello-world-row" class="row row-eq-height">
+
+                <!-- responsive column that fills half of desktop screen -->
+                <div id="hello-world-column1" class="col-sm-6">
+
+                    <!-- the element accessed in our JavaScript "click" -->
+                    <p>This is confusing</p>
+					<i class="fas fa-biohazard"></i>
+                </div>
+
+                <!-- responsive column that fills half of desktop screen -->
+                <div id="hello-world-column2" class="col-sm-6">
+
+                    <!-- empty element that will be filled via JavaScript -->
+                    <p>But I might get the hang of it</p>
+
+                    <!-- icon here for no reason just to demonstrate -->
+                    <i class="fas fa-biohazard"></i>
+                </div>
+            </div>
+        </div>
+
+        <!-- This is how the web page knows about YOUR JavaScript file! -->
+        <script src="hello-world.js"></script>
+    </body>
+
+</html>
